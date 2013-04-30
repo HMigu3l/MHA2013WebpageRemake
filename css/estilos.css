@@ -1,0 +1,183 @@
+/* 
+    Document   : estilos
+    Created on : Apr 29, 2013, 5:03:01 AM
+    Author     : windows eight
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    
+}
+.body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	border-bottom-color: #FFF;
+}
+.header .head {
+	height: 60px;
+	width: 960px;
+}
+.header .nav-bar {
+	height: 36px;
+	width: 960px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+
+
+
+
+        
+       \\\\\\\\]]\
+       
+	border-bottom-style: solid;
+	border-top-color: #000;
+	border-bottom-color: #000;
+	background-color: #9A0000;
+}
+.opções {
+	float: left;
+	height: 36px;
+	width: 600px;
+}
+#search-place {
+	height: 36px;
+	width: 360px;
+	float: left;
+}
+#search-place #searchbox {
+	padding: 0;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 16px;
+	
+	
+}
+#searchbox label,.hide {
+	display: none;
+	
+}
+#searchform {
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #333;
+	font-size: 0.9em;
+	padding: 6px;
+	width: 300px;
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	-o-border-radius: 23px;
+	border-radius: 23px;
+	
+}
+#wrapper .section1 {
+	width: 960px;
+	margin: 0px;
+}
+.section1 .aside-esquerdo {
+	float: left;
+	width: 180px;
+	margin: 0;
+	padding-top: 4px;
+}
+.aside-esquerdo .cima {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	width: 180px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+.cima #apDiv1 {
+	width: 180px;
+	z-index: 1;
+	color: #FFF;
+	text-align: center;
+	font-size: 90%;
+	margin-top: -45px;
+	height: 40px;
+	background-color: #9A0000;
+	vertical-align: top;
+	
+}
+.baixo #apDiv2 {
+	width: 180px;
+	z-index: 1;
+	color: #FFF;
+	padding: 0px;
+	text-align: center;
+	font-size: 90%;
+	margin-top: -45px;
+	height: 40px;
+	background-color: #9A0000;
+	vertical-align: top;
+}
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+}
+#apDiv2 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+}
+#wrapper .section1 .artigo {
+	padding: 4px;
+	width: 588px;
+	margin: 0;
+	float: left;
+}
+.section1 .aside-direito {
+	float: right;
+	width: 180px;
+	margin: 0;
+	padding-top: 4px;
+}
+#wrapper .section2 {
+	width: 960px;
+	clear: both;
+}
+.section2 .section2-inner {
+	float: left;
+	width: 236px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin: 0px;
+	padding: 2px;
+}
+#footer{
+	width: 960px;
+	height: 110px;
+	background-color: #FFF;
+	margin-top: 2px;
+	clear: both;
+}
+#footer-logos{
+     text-align: center;
+}#footer-logos li {
+	display: inline;
+	margin: 3px;
+}
+
+#footer-logos a img {
+    opacity: 0.1;
+	border: 0px;
+}
+#footer-logos a:hover img, 
+#footer-logos a:focus img {   
+    opacity: 0.90;   }
